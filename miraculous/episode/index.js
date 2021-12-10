@@ -53,7 +53,7 @@ import('./episodes/' + episode + '.js')
 
         const episodeNumber = parseInt(episode);
         const prev = (episodeNumber - 1) % 100 ? episodeNumber - 1 : (season - 1) * 100 + 26;
-        const next = episode.endsWith('26') ? (season + 1) * 100 : episodeNumber + 1;
+        const next = episode.endsWith('26') ? (season + 1) * 100 + 1 : episodeNumber + 1;
 
         if (episodeNumber !== 101) {
                 const a = document.createElement('a');
