@@ -55,15 +55,19 @@ import('./episodes/' + episode + '.js')
         const prev = (episodeNumber - 1) % 100 ? episodeNumber - 1 : (season - 1) * 100 + 26;
         const next = episode.endsWith('26') ? (season + 1) * 100 : episodeNumber + 1;
 
-        const a = document.createElement('a');
-        a.innerHTML = '<i class="twa twa-arrow-left"></i> Previous ';
-        a.href = '?episode=' + prev;
-        document.body.appendChild(a);
+        if (episodeNumber !== 101) {
+                const a = document.createElement('a');
+                a.innerHTML = '<i class="twa twa-arrow-left"></i> Previous ';
+                a.href = '?episode=' + prev;
+                document.body.appendChild(a);
+        }
 
-        const a2 = document.createElement('a');
-        a2.innerHTML = '<i class="twa twa-arrow-right"></i> Next';
-        a2.href = '?episode=' + next;
-        document.body.appendChild(a2);
+        if (episodeNumber !== 726) {
+                const a2 = document.createElement('a');
+                a2.innerHTML = '<i class="twa twa-arrow-right"></i> Next';
+                a2.href = '?episode=' + next;
+                document.body.appendChild(a2);
+        }
 
         document.getElementById('loading').remove();
     })
