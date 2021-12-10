@@ -23,6 +23,7 @@ import('./episodes/' + episode + '.js')
 
         const h1 = document.createElement('h1');
         h1.innerHTML = 's' + season + 'e' + seasonEp + ': ' + names[episode];
+        document.head.title = names[episode] ?? '???';
         document.body.appendChild(h1);
 
         const p = document.createElement('p');
@@ -52,7 +53,7 @@ import('./episodes/' + episode + '.js')
 
         const episodeNumber = parseInt(episode);
         const prev = (episodeNumber - 1) % 100 ? episodeNumber - 1 : (season - 1) * 100 + 26;
-        const next = episode.endsWith('26') ? season * 100 + 1 : episodeNumber + 1;
+        const next = episode.endsWith('26') ? (season + 1) * 100 : episodeNumber + 1;
 
         const a = document.createElement('a');
         a.innerHTML = '<i class="twa twa-arrow-left"></i> Previous ';
