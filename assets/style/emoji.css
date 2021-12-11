@@ -6811,6 +6811,9 @@
 .twa-dain {
     background-image: url("../img/dainsleif.png"); }
 
+.twa-electro {
+    background-image: url("../img/genshin/UI_Buff_Element_Elect.png"); }
+
 .twa-endu {
     background-image: url("../img/endureminder.png"); }
 
@@ -6820,11 +6823,17 @@
 .twa-fndaily {
     background-image: url("../img/fndaily.png"); }
 
+.twa-ganyu {
+    background-image: url("../img/genshin/UI_AvatarIcon_Ganyu.png"); }
+
 .twa-genshin-star {
     background-image: url("../img/Genshin_Star.png"); }
 
 .twa-geo {
     background-image: url("../img/genshin/UI_Buff_Element_Roach.png"); }
+
+.twa-hutao {
+    background-image: url("../img/genshin/UI_AvatarIcon_Hutao.png"); }
 
 .twa-hydro {
     background-image: url("../img/genshin/UI_Buff_Element_Water.png"); }
@@ -6843,6 +6852,9 @@
 
 .twa-pyro {
     background-image: url("../img/genshin/UI_Buff_Element_Fire.png"); }
+
+.twa-raiden {
+    background-image: url("../img/genshin/UI_AvatarIcon_Shougun.png"); }
 
 .twa-rosaria {
     background-image: url("../img/genshin/UI_AvatarIcon_Rosaria.png"); }
