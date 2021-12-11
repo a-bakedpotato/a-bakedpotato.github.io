@@ -6793,8 +6793,20 @@
 .twa-ak47 {
     background-image: url("../img/ak47.png"); }
 
+.twa-albedo {
+    background-image: url("../img/genshin/UI_AvatarIcon_Albedo.png"); }
+
+.twa-barbara {
+    background-image: url("../img/genshin/UI_AvatarIcon_Barbara.png"); }
+
+.twa-bennett {
+    background-image: url("../img/genshin/UI_AvatarIcon_Bennett.png"); }
+
 .twa-brightcore {
     background-image: url("../img/brightcore.png"); }
+
+.twa-cryo {
+    background-image: url("../img/genshin/UI_Buff_Element_Frost.png"); }
 
 .twa-dain {
     background-image: url("../img/dainsleif.png"); }
@@ -6802,8 +6814,20 @@
 .twa-endu {
     background-image: url("../img/endureminder.png"); }
 
+.twa-eula {
+    background-image: url("../img/genshin/UI_AvatarIcon_Eula.png"); }
+
 .twa-fndaily {
     background-image: url("../img/fndaily.png"); }
+
+.twa-genshin-star {
+    background-image: url("../img/Genshin_Star.png"); }
+
+.twa-geo {
+    background-image: url("../img/genshin/UI_Buff_Element_Roach.png"); }
+
+.twa-hydro {
+    background-image: url("../img/genshin/UI_Buff_Element_Water.png"); }
 
 .twa-loading {
     background-image: url("../img/loading.gif"); }
@@ -6811,11 +6835,23 @@
 .twa-no {
     background-image: url("../img/no.gif"); }
 
+.twa-noelle {
+    background-image: url("../img/genshin/UI_AvatarIcon_Noel.png"); }
+
 .twa-pink-s {
     background-image: url("../img/s.png"); }
 
+.twa-pyro {
+    background-image: url("../img/genshin/UI_Buff_Element_Fire.png"); }
+
+.twa-rosaria {
+    background-image: url("../img/genshin/UI_AvatarIcon_Rosaria.png"); }
+
 .twa-tikki {
     background-image: url("../img/tikki.png"); }
+
+.twa-xiangling {
+    background-image: url("../img/genshin/UI_AvatarIcon_Xiangling.png"); }
 
 .twa-yes {
     background-image: url("../img/yes.gif"); }

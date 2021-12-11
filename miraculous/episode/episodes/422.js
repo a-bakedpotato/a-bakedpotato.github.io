@@ -1,5 +1,6 @@
 export const rating = 1;
 export const plot = true;
+export const lore = true;
 export const newMiraculous = true;
 export const comments = 'I get that it\'s the 100th episode but the number 100 was mentioned way too much for me. Mari ' +
     'telling Luka where Sass is without telling him her identity was kinda stupid considering the world was ending (even ' +

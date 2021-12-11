@@ -10,7 +10,7 @@ const ratings = [
     '<i class="twa twa-dd"></i> Filler, bad episode',
     '<i class="twa twa-ff"></i> Skip this episode, it hurts to watch',
     '<i class="twa twa-question-mark"></i> This episode has not been released or just hasn\'t been rated by Potato yet. If that\'s the case, the following info may not be accurate.'
-]
+];
 
 import('./episodes/' + episode + '.js')
     .then(({ rating = 6, plot = false, newMiraculous = false, lore = false, comments = 'None' }) => {
@@ -69,6 +69,7 @@ import('./episodes/' + episode + '.js')
                 document.body.appendChild(a2);
         }
 
+        document.title = names[episode];
         document.getElementById('loading').remove();
     })
     .catch(() => document.getElementById('loading').innerHTML = 'Failed to find the episode: "' + episode + '".<br><br>' +
