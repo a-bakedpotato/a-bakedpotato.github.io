@@ -10,6 +10,13 @@ const elements = {
     cryo: '#' + Number(8190971).toString(16),
 }
 
+const isVertical = window.innerHeight >= window.innerWidth;
+window.addEventListener('resize', () => {
+    if (isVertical && window.innerHeight >= window.innerWidth) return null;
+    else if (!isVertical && window.innerHeight <= window.innerWidth) return null;
+    window.location.reload();
+});
+
 import('./characters/' + character.toLowerCase() + '.js')
     .then(({ name, codename, element, rarity, constellation, weapon, guideTitle, guideImgUrl, guide2Title, guideImgUrl2,
                story, playstyle, weapons, ascensionImgUrl, constellationImgUrl }) => {
@@ -17,12 +24,17 @@ import('./characters/' + character.toLowerCase() + '.js')
         const bigTable = document.createElement('table');
         bigTable.style.width = '100%';
         const tableRow = document.createElement('tr');
-        const staticArea = document.createElement('td');
+        let staticArea = document.createElement('td');
         staticArea.style.width = '30%';
         staticArea.style.position = 'fixed';
 
         const scrollableArea = document.createElement('td');
         scrollableArea.style.width = '65%';
+
+        if (isVertical){
+            staticArea = scrollableArea;
+            scrollableArea.style.width = '85%';
+        }
 
         const gachaImgUrl = '../../../assets/img/genshin/UI_Gacha_AvatarImg_' + codename + '.png';
         const style = document.createElement('style');
@@ -174,4 +186,4 @@ import('./characters/' + character.toLowerCase() + '.js')
         bigTable.appendChild(tableRow);
         document.body.appendChild(bigTable);
     })
-    .catch(e => document.getElementById('loading').innerHTML = 'Failed to find the character: "' + character + '".' + e);
+    .catch(e => document.getElementById('loading').innerHTML = 'Failed to find the character: "' + character + '".');
