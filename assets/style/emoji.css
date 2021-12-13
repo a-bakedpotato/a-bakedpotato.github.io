@@ -6796,6 +6796,9 @@
 .twa-albedo {
     background-image: url("../img/genshin/UI_AvatarIcon_Albedo.png"); }
 
+.twa-amber {
+    background-image: url("../img/genshin/UI_AvatarIcon_Ambor.png"); }
+
 .twa-anemo {
     background-image: url("../img/genshin/UI_Buff_Element_Wind.png"); }
 
@@ -6843,6 +6846,15 @@
 
 .twa-hydro {
     background-image: url("../img/genshin/UI_Buff_Element_Water.png"); }
+
+.twa-jean {
+    background-image: url("../img/genshin/UI_AvatarIcon_Qin.png"); }
+
+.twa-kaeya {
+    background-image: url("../img/genshin/UI_AvatarIcon_Kaeya.png"); }
+
+.twa-lisa {
+    background-image: url("../img/genshin/UI_AvatarIcon_Lisa.png"); }
 
 .twa-loading {
     background-image: url("../img/loading.gif"); }
