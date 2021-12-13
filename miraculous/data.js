@@ -23,246 +23,210 @@ export const confirmed = [
 });
 
 export const unconfirmed = [
-    {
-        "country": "🇧🇷",
-        "episode": "423",
-        "timestamp": 1642545000,
-        "global": true
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "423",
-        "timestamp": 1642926900,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "425",
-        "timestamp": 1643149800,
-        "global": true
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "425",
-        "timestamp": 1643531700,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "415",
-        "timestamp": 1643651400,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "426",
-        "timestamp": 1643754600,
-        "global": true
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "409",
-        "timestamp": 1643824200,
-        "global": false
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "423",
-        "timestamp": 1644039000,
-        "global": false
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "426",
-        "timestamp": 1644136500,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "405",
-        "timestamp": 1644359400,
-        "global": true
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "425",
-        "timestamp": 1644643800,
-        "global": false
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "405",
-        "timestamp": 1644741300,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "424",
-        "timestamp": 1644964200,
-        "global": true
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "426",
-        "timestamp": 1645248600,
-        "global": false
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "424",
-        "timestamp": 1645346100,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "420",
-        "timestamp": 1645569000,
-        "global": true
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "420",
-        "timestamp": 1645950900,
-        "global": false
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "405",
-        "timestamp": 1647063000,
-        "global": false
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "424",
-        "timestamp": 1647667800,
-        "global": false
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "420",
-        "timestamp": 1648272600,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "422",
-        "timestamp": 1648489800,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "423",
-        "timestamp": 1648576200,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "425",
-        "timestamp": 1648662600,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "426",
-        "timestamp": 1648749000,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "405",
-        "timestamp": 1648835400,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "424",
-        "timestamp": 1648921800,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "420",
-        "timestamp": 1649008200,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "5??",
-        "timestamp": 1650407400,
-        "global": true
-    },
-    {
-        "country": "🇨🇭",
-        "episode": "5??",
-        "timestamp": 1651907400,
-        "global": false
-    },
-    {
-        "country": "🇪🇸",
-        "episode": "5??",
-        "timestamp": 1655541000,
-        "global": false
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "5??",
-        "timestamp": 1655703000,
-        "global": false
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "5??",
-        "timestamp": 1656232500,
-        "global": false
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "5??",
-        "timestamp": 1656352200,
-        "global": false
-    },
-    {
-        "country": "🇺🇸",
-        "episode": "5??",
-        "timestamp": 1656912600,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "5??",
-        "timestamp": 1657665000,
-        "global": true
-    },
-    {
-        "country": "🇪🇸",
-        "episode": "5??",
-        "timestamp": 1668241800,
-        "global": false
-    },
-    {
-        "country": "🇫🇷",
-        "episode": "5??",
-        "timestamp": 1669019700,
-        "global": false
-    },
-    {
-        "country": "🇧🇷",
-        "episode": "5??",
-        "timestamp": 1670365800,
-        "global": true
-    },
-    {
-        "country": "🇩🇪",
-        "episode": "5??",
-        "timestamp": 1671213000,
-        "global": false
-    },
-    {
-        "country": "🇨🇭",
-        "episode": "5??",
-        "timestamp": 1678518600,
-        "global": false
-    }
+	{
+		"country": "🇧🇷",
+		"episode": "423",
+		"timestamp": 1642545000,
+		"global": true
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "423",
+		"timestamp": 1642926900,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "425",
+		"timestamp": 1643149800,
+		"global": true
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "425",
+		"timestamp": 1643531700,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "415",
+		"timestamp": 1643651400,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "426",
+		"timestamp": 1643754600,
+		"global": true
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "409",
+		"timestamp": 1643824200,
+		"global": false
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "423",
+		"timestamp": 1644039000,
+		"global": false
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "426",
+		"timestamp": 1644136500,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "405",
+		"timestamp": 1644359400,
+		"global": true
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "425",
+		"timestamp": 1644643800,
+		"global": false
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "405",
+		"timestamp": 1644741300,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "424",
+		"timestamp": 1644964200,
+		"global": true
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "426",
+		"timestamp": 1645248600,
+		"global": false
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "424",
+		"timestamp": 1645346100,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "420",
+		"timestamp": 1645569000,
+		"global": true
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "420",
+		"timestamp": 1645950900,
+		"global": false
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "405",
+		"timestamp": 1647063000,
+		"global": false
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "424",
+		"timestamp": 1647667800,
+		"global": false
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "420",
+		"timestamp": 1648272600,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "422",
+		"timestamp": 1648489800,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "423",
+		"timestamp": 1648576200,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "425",
+		"timestamp": 1648662600,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "426",
+		"timestamp": 1648749000,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "405",
+		"timestamp": 1648835400,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "424",
+		"timestamp": 1648921800,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "420",
+		"timestamp": 1649008200,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "5??",
+		"timestamp": 1657665000,
+		"global": true
+	},
+	{
+		"country": "🇪🇸",
+		"episode": "5??",
+		"timestamp": 1668241800,
+		"global": false
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "5??",
+		"timestamp": 1669019700,
+		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "5??",
+		"timestamp": 1670365800,
+		"global": true
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "5??",
+		"timestamp": 1671213000,
+		"global": false
+	},
+	{
+		"country": "🇨🇭",
+		"episode": "5??",
+		"timestamp": 1678518600,
+		"global": false
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "5??",
+		"timestamp": 1659850200,
+		"global": false
+	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = false;
     return e;
