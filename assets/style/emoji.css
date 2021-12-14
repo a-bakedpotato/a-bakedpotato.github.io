@@ -6805,11 +6805,23 @@
 .twa-barbara {
     background-image: url("../img/genshin/UI_AvatarIcon_Barbara.png"); }
 
+.twa-beidou {
+    background-image: url("../img/genshin/UI_AvatarIcon_Beidou.png"); }
+
 .twa-bennett {
     background-image: url("../img/genshin/UI_AvatarIcon_Bennett.png"); }
 
+.twa-bow {
+    background-image: url("../img/genshin/UI_GachaTypeIcon_Bow.png"); }
+
 .twa-brightcore {
     background-image: url("../img/brightcore.png"); }
+
+.twa-catalyst {
+    background-image: url("../img/genshin/UI_GachaTypeIcon_Catalyst.png"); }
+
+.twa-claymore {
+    background-image: url("../img/genshin/UI_GachaTypeIcon_Claymore.png"); }
 
 .twa-cryo {
     background-image: url("../img/genshin/UI_Buff_Element_Frost.png"); }
@@ -6859,6 +6871,9 @@
 .twa-loading {
     background-image: url("../img/loading.gif"); }
 
+.twa-mona {
+    background-image: url("../img/genshin/UI_AvatarIcon_Mona.png"); }
+
 .twa-no {
     background-image: url("../img/no.gif"); }
 
@@ -6868,10 +6883,13 @@
 .twa-pink-s {
     background-image: url("../img/s.png"); }
 
+.twa-polearm {
+    background-image: url("../img/genshin/UI_GachaTypeIcon_Pole.png"); }
+
 .twa-pyro {
     background-image: url("../img/genshin/UI_Buff_Element_Fire.png"); }
 
-.twa-raiden {
+.twa-raidenshogun {
     background-image: url("../img/genshin/UI_AvatarIcon_Shougun.png"); }
 
 .twa-rosaria {
@@ -6879,6 +6897,12 @@
 
 .twa-sucrose {
     background-image: url("../img/genshin/UI_AvatarIcon_Sucrose.png"); }
+
+.twa-sword {
+    background-image: url("../img/genshin/UI_GachaTypeIcon_Sword.png"); }
+
+.twa-tartaglia {
+    background-image: url("../img/genshin/UI_AvatarIcon_Tartaglia.png"); }
 
 .twa-thoma {
     background-image: url("../img/genshin/UI_AvatarIcon_Tohma.png"); }
@@ -6889,11 +6913,17 @@
 .twa-xiangling {
     background-image: url("../img/genshin/UI_AvatarIcon_Xiangling.png"); }
 
+.twa-xiao {
+    background-image: url("../img/genshin/UI_AvatarIcon_Xiao.png"); }
+
 .twa-xingqiu {
     background-image: url("../img/genshin/UI_AvatarIcon_Xingqiu.png"); }
 
 .twa-yes {
     background-image: url("../img/yes.gif"); }
+
+.twa-yoimiya {
+    background-image: url("../img/genshin/UI_AvatarIcon_Yoimiya.png"); }
 
 .twa-zhongli-think {
     background-image: url("../img/zhonglithink.png"); }

@@ -35,24 +35,25 @@
         <a href=".."><i class="twa twa-arrow-left"></i> Back</a><br>
 
         <h2>Guides</h2>
-        <a href="character/?character=albedo"><i class="twa twa-albedo"></i> Albedo</a><br>
-        <a href="character/?character=amber"><i class="twa twa-amber"></i> Amber</a><br>
-        <a href="character/?character=barbara"><i class="twa twa-barbara"></i> Barbara</a><br>
-        <a href="character/?character=bennett"><i class="twa twa-bennett"></i> Bennett</a><br>
-        <a href="character/?character=diona"><i class="twa twa-diona"></i> Diona</a><br>
-        <a href="character/?character=eula"><i class="twa twa-eula"></i> Eula</a><br>
-        <a href="character/?character=ganyu"><i class="twa twa-ganyu"></i> Ganyu</a><br>
-        <a href="character/?character=hutao"><i class="twa twa-hutao"></i> Hu Tao</a><br>
-        <a href="character/?character=jean"><i class="twa twa-jean"></i> Jean</a><br>
-        <a href="character/?character=kaeya"><i class="twa twa-kaeya"></i> Kaeya</a><br>
-        <a href="character/?character=lisa"><i class="twa twa-lisa"></i> Lisa</a><br>
-        <a href="character/?character=noelle"><i class="twa twa-noelle"></i> Noelle</a><br>
-        <a href="character/?character=raidenshogun"><i class="twa twa-raiden"></i> Raiden Shogun</a><br>
-        <a href="character/?character=rosaria"><i class="twa twa-rosaria"></i> Rosaria</a><br>
-        <a href="character/?character=sucrose"><i class="twa twa-sucrose"></i> Sucrose</a><br>
-        <a href="character/?character=thoma"><i class="twa twa-thoma"></i> Thoma</a><br>
-        <a href="character/?character=xiangling"><i class="twa twa-xiangling"></i> Xiangling</a><br>
-        <a href="character/?character=xingqiu"><i class="twa twa-xingqiu"></i> Xingqiu</a>
+        <div id="guides"></div>
+
+        <!-- For some reason, this wouldn't work when I put it in the head -->
+        <script defer>
+            const chars = ['Albedo', 'Amber', 'Barbara', 'Beidou', 'Bennett', 'Diona', 'Eula', 'Ganyu', 'Hu Tao', 'Jean',
+                'Kaeya', 'Lisa', 'Mona', 'Noelle', 'Raiden Shogun', 'Rosaria', 'Sucrose', 'Tartaglia', 'Thoma',
+                'Xiangling', 'Xiao', 'Xingqiu', 'Yoimiya'];
+            const guides = document.getElementById('guides');
+            for (const char of chars){
+                const a = document.createElement('a');
+                a.href = 'character/?character=' + char.toLowerCase().replace(/\W/g, '');
+                a.innerHTML = '<i class="twa twa-' + char.toLowerCase().replace(/\W/g, '') + '"></i>';
+                a.innerHTML += ' ' + char;
+                guides.appendChild(a);
+
+                const br = document.createElement('br');
+                guides.appendChild(br);
+            }
+        </script>
 
         <!--<h2>My Accounts</h2>-->
     </body>

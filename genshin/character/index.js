@@ -25,11 +25,11 @@ import('./characters/' + character.toLowerCase() + '.js')
         bigTable.style.width = '100%';
         const tableRow = document.createElement('tr');
         let staticArea = document.createElement('td');
-        staticArea.style.width = '30%';
+        staticArea.style.width = '20%';
         staticArea.style.position = 'fixed';
 
         const scrollableArea = document.createElement('td');
-        scrollableArea.style.width = '65%';
+        scrollableArea.style.width = '75%';
 
         if (isVertical){
             staticArea = scrollableArea;
@@ -66,7 +66,7 @@ import('./characters/' + character.toLowerCase() + '.js')
         staticArea.appendChild(p);
 
         const p2 = document.createElement('p');
-        p2.innerHTML  = '<b>Weapon Type</b>: ' + weapon + '<br>';
+        p2.innerHTML  = '<b>Weapon Type</b>: <i class="twa twa-' + weapon.toLowerCase() + '"></i> ' + weapon + '<br>';
         p2.innerHTML += '<b>Constellation</b>: ' + constellation;
         scrollableArea.appendChild(p2);
 
