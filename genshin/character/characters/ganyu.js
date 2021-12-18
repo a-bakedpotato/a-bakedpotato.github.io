@@ -5,7 +5,11 @@ export const rarity = 5;
 export const constellation = 'Sinae Unicornis';
 export const weapon = 'Bow';
 
-export const guideImgUrl = 'https://fortoffans.github.io/Main%20DPS/Character_Ganyu.jpg';
+export const guideImgUrl = 'https://fortoffans.github.io/Main%20DPS/Character_Ganyu_Melt.jpg';
+export const guideTitle = 'Melt Build';
+
+export const guideImgUrl2 = 'https://fortoffans.github.io/Main%20DPS/Character_Ganyu_Freeze.jpg';
+export const guide2Title = 'Freeze Build';
 
 export const story = 'Ganyu serves as an emissary and secretary for the Liyue Qixing. Ganyu firmly believes that all ' +
     'the work she does is in honor of her contract with Rex Lapis, seeking the well-being of all living things within ' +
