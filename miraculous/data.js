@@ -203,6 +203,11 @@ export const unconfirmed = [
 });
 
 export const names = {
+    "MCN": "Miraculous World: Shanghai",
+    "MNY": "Miraculous World: New York",
+    "MBR": "Miraculous World: Brazil",
+    "AWK": "Miraculous: Awakening",
+	
     "101": "Stormy Weather",
     "102": "The Evillustrator",
     "103": "Lady Wifi",
