@@ -114,6 +114,12 @@ import('./characters/' + character.toLowerCase() + '.js')
             h24.innerHTML = 'Weapons';
             scrollableArea.appendChild(h24);
 
+            if (weapons.description){
+                const p = document.createElement('p');
+                p.innerHTML = weapons.description;
+                scrollableArea.appendChild(p);
+            }
+
             const table = document.createElement('table');
             const trTop = document.createElement('tr');
             const tdLH = document.createElement('td');
