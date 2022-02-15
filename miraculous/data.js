@@ -1,12 +1,6 @@
 export const confirmed = [
 	{
 		"country": "🇺🇸",
-		"episode": "420",
-		"timestamp": 1644645600,
-		"global": true
-	},
-	{
-		"country": "🇺🇸",
 		"episode": "423",
 		"timestamp": 1645250400,
 		"global": false
@@ -24,10 +18,22 @@ export const confirmed = [
 		"global": false
 	},
 	{
+		"country": "🇺🇸",
+		"episode": "425",
+		"timestamp": 1646460000,
+		"global": true
+	},
+	{
 		"country": "🇫🇷",
 		"episode": "420",
 		"timestamp": 1646555700,
 		"global": false
+	},
+	{
+		"country": "🇺🇸",
+		"episode": "426",
+		"timestamp": 1647064800,
+		"global": true
 	},
 	{
 		"country": "🇩🇪",
@@ -36,10 +42,22 @@ export const confirmed = [
 		"global": true
 	},
 	{
-		"country": "🇧🇷",
+		"country": "🇫🇷",
+		"episode": "AWK",
+		"timestamp": 1659515700,
+		"global": false
+	},
+	{
+		"country": "🇫🇷",
 		"episode": "424",
-		"timestamp": 1644877800,
-		"global": true
+		"timestamp": 1645950900,
+		"global": false
+	},
+	{
+		"country": "🇩🇪",
+		"episode": "415",
+		"timestamp": 1645293000,
+		"global": false
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = true;
@@ -50,37 +68,19 @@ export const unconfirmed = [
 	{
 		"country": "🇧🇷",
 		"episode": "420",
-		"timestamp": 1645482600,
-		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "425",
 		"timestamp": 1646087400,
-		"global": true
-	},
-	{
-		"country": "🇺🇸",
-		"episode": "425",
-		"timestamp": 1646460000,
-		"global": false
-	},
-	{
-		"country": "🇺🇸",
-		"episode": "426",
-		"timestamp": 1646546400,
 		"global": false
 	},
 	{
 		"country": "🇧🇷",
-		"episode": "426",
+		"episode": "425",
 		"timestamp": 1646692200,
 		"global": false
 	},
 	{
-		"country": "🇫🇷",
-		"episode": "424",
-		"timestamp": 1647160500,
+		"country": "🇧🇷",
+		"episode": "426",
+		"timestamp": 1647297000,
 		"global": false
 	},
 	{
@@ -134,12 +134,6 @@ export const unconfirmed = [
 	{
 		"country": "🇩🇪",
 		"episode": "424",
-		"timestamp": 1648921800,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "415",
 		"timestamp": 1648921800,
 		"global": false
 	},
