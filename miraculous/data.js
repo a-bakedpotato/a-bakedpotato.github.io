@@ -1,83 +1,5 @@
 export const confirmed = [
 	{
-		"country": "🇧🇷",
-		"episode": "425",
-		"timestamp": 1646949600,
-		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "426",
-		"timestamp": 1646951400,
-		"global": true
-	},
-	{
-		"country": "🇺🇸",
-		"episode": "426",
-		"timestamp": 1647100800,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "425",
-		"timestamp": 1647159300,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "426",
-		"timestamp": 1647161700,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "405",
-		"timestamp": 1647885000,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "409",
-		"timestamp": 1647971400,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "420",
-		"timestamp": 1648057800,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "422",
-		"timestamp": 1648144200,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "423",
-		"timestamp": 1648230600,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "424",
-		"timestamp": 1648317000,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "425",
-		"timestamp": 1648403400,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "426",
-		"timestamp": 1648405200,
-		"global": false
-	},
-	{
 		"country": "🇫🇷",
 		"episode": "AWK",
 		"timestamp": 1659515700,
@@ -96,79 +18,74 @@ export const confirmed = [
 
 export const unconfirmed = [
 	{
-		"country": "🇧🇷",
-		"episode": "425",
-		"timestamp": 1647297000,
-		"global": false
+		"country": "🇫🇷",
+		"episode": "MUK",
+		"timestamp": 1654072500,
+		"global": true
 	},
 	{
 		"country": "🇧🇷",
-		"episode": "426",
-		"timestamp": 1647901800,
-		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "5??",
+		"episode": "501",
 		"timestamp": 1657665000,
 		"global": true
 	},
 	{
+		"country": "🇧🇷",
+		"episode": "502",
+		"timestamp": 1658269800,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "503",
+		"timestamp": 1658874600,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "504",
+		"timestamp": 1659479400,
+		"global": true
+	},
+	{
 		"country": "🇺🇸",
-		"episode": "5??",
+		"episode": "501",
 		"timestamp": 1659848400,
 		"global": false
 	},
 	{
+		"country": "🇧🇷",
+		"episode": "505",
+		"timestamp": 1660084200,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "506",
+		"timestamp": 1660689000,
+		"global": true
+	},
+	{
 		"country": "🇪🇸",
-		"episode": "5??",
+		"episode": "501",
 		"timestamp": 1668241800,
 		"global": false
 	},
 	{
 		"country": "🇫🇷",
-		"episode": "5??",
-		"timestamp": 1669019700,
-[
-	{
-		"country": "🇧🇷",
-		"episode": "5??",
-		"timestamp": 1657665000,
-		"global": true
-	},
-	{
-		"country": "🇺🇸",
-		"episode": "5??",
-		"timestamp": 1659848400,
-		"global": false
-	},
-	{
-		"country": "🇪🇸",
-		"episode": "5??",
-		"timestamp": 1668241800,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "5??",
+		"episode": "501",
 		"timestamp": 1669019700,
 		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "5??",
-		"timestamp": 1670365800,
-		"global": true
 	},
 	{
 		"country": "🇩🇪",
-		"episode": "5??",
+		"episode": "501",
 		"timestamp": 1671213000,
 		"global": false
 	},
 	{
 		"country": "🇨🇭",
-		"episode": "5??",
+		"episode": "501",
 		"timestamp": 1678518600,
 		"global": false
 	}
