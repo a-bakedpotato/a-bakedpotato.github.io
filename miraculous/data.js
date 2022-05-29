@@ -10,6 +10,12 @@ export const confirmed = [
 		"episode": "AWK",
 		"timestamp": 1674755400,
 		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "501",
+		"timestamp": 1654036200,
+		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = true;
@@ -20,31 +26,7 @@ export const unconfirmed = [
 	{
 		"country": "🇫🇷",
 		"episode": "MUK",
-		"timestamp": 1654072500,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "501",
-		"timestamp": 1657665000,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "502",
-		"timestamp": 1658269800,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "503",
-		"timestamp": 1658874600,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "504",
-		"timestamp": 1659479400,
+		"timestamp": 1656664500,
 		"global": true
 	},
 	{
@@ -52,18 +34,6 @@ export const unconfirmed = [
 		"episode": "501",
 		"timestamp": 1659848400,
 		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "505",
-		"timestamp": 1660084200,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "506",
-		"timestamp": 1660689000,
-		"global": true
 	},
 	{
 		"country": "🇪🇸",
@@ -88,6 +58,36 @@ export const unconfirmed = [
 		"episode": "501",
 		"timestamp": 1678518600,
 		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "502",
+		"timestamp": 1654641000,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "503",
+		"timestamp": 1655245800,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "504",
+		"timestamp": 1655850600,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "505",
+		"timestamp": 1656455400,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "506",
+		"timestamp": 1657060200,
+		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = false;
