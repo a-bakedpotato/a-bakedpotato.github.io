@@ -14,7 +14,7 @@ export const confirmed = [
 	{
 		"country": "🇧🇷",
 		"episode": "501",
-		"timestamp": 1654036200,
+		"timestamp": 1653949800,
 		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
@@ -62,31 +62,31 @@ export const unconfirmed = [
 	{
 		"country": "🇧🇷",
 		"episode": "502",
-		"timestamp": 1654641000,
+		"timestamp": 1654554600,
 		"global": true
 	},
 	{
 		"country": "🇧🇷",
 		"episode": "503",
-		"timestamp": 1655245800,
+		"timestamp": 1655159400,
 		"global": true
 	},
 	{
 		"country": "🇧🇷",
 		"episode": "504",
-		"timestamp": 1655850600,
+		"timestamp": 1655764200,
 		"global": true
 	},
 	{
 		"country": "🇧🇷",
 		"episode": "505",
-		"timestamp": 1656455400,
+		"timestamp": 1656369000,
 		"global": true
 	},
 	{
 		"country": "🇧🇷",
 		"episode": "506",
-		"timestamp": 1657060200,
+		"timestamp": 1656973800,
 		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
