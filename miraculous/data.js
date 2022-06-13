@@ -14,7 +14,7 @@ export const confirmed = [
 	{
 		"country": "🇧🇷",
 		"episode": "501",
-		"timestamp": 1653949800,
+		"timestamp": 1655159400,
 		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
@@ -24,9 +24,39 @@ export const confirmed = [
 
 export const unconfirmed = [
 	{
+		"country": "🇧🇷",
+		"episode": "502",
+		"timestamp": 1655764200,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "503",
+		"timestamp": 1656369000,
+		"global": true
+	},
+	{
 		"country": "🇫🇷",
 		"episode": "MUK",
 		"timestamp": 1656664500,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "504",
+		"timestamp": 1656973800,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "505",
+		"timestamp": 1657578600,
+		"global": true
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "506",
+		"timestamp": 1658183400,
 		"global": true
 	},
 	{
@@ -58,36 +88,6 @@ export const unconfirmed = [
 		"episode": "501",
 		"timestamp": 1678518600,
 		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "502",
-		"timestamp": 1654554600,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "503",
-		"timestamp": 1655159400,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "504",
-		"timestamp": 1655764200,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "505",
-		"timestamp": 1656369000,
-		"global": true
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "506",
-		"timestamp": 1656973800,
-		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = false;
@@ -98,6 +98,9 @@ export const names = {
     "MCN": "Miraculous World: Shanghai",
     "MNY": "Miraculous World: New York",
     "MBR": "Miraculous World: Brazil",
+    "MUK": "Miraculous World: London",
+    "MAF": "Miraculous World: Africa",
+    "MJP": "Miraculous World: Japan",
     "AWK": "Miraculous: Awakening",
 	
     "101": "Stormy Weather",
