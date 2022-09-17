@@ -1,3 +1,2 @@
 export const plot = true;
-export const comments = 'This image screams finale. ' +
-    '<a href="https://www.youtube.com/watch?v=HpJMILK2pRw" target="_blank">"A LIGA DOS HERÓIS AUMENTOU!"</a>';
+export const comments = 'Of course Gloob comes in last minute and is going to air it... I\'m avoiding spoilers for this.';

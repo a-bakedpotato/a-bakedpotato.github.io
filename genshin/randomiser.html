@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>a.bakedpotato Discord Bots & Servers</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" href="../assets/style/index.css">
+        <link rel="stylesheet" type="text/css" href="../assets/style/emoji.css">
+
+        <style>
+            a {
+                text-decoration: none;
+                transition: 0.2s;
+            }
+
+            a:hover {
+                cursor: pointer;
+                font-size: 5vh;
+            }
+
+            i:not(.twa) {
+                font-size: 2vh;
+            }
+
+            body {
+                font-size: 3vh;
+                line-height: 4vh;
+                padding: 2%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html"><i class="twa twa-arrow-left"></i> Back</a><br>
+
+        <h2 id="title">Abyss Randomizer</h2>
+        <table id="chars"></table>
+        <script src="randomiser.js"></script>
+        <p>Click on characters that you do not own to exclude them.</p>
+        <a href="#output" onclick="generate()">Generate Teams</a>
+        <p id="output"></p>
+    </body>
+</html>
