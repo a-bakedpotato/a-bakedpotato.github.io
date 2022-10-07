@@ -19,7 +19,8 @@ export default class {
     }
 
     set e(number){
-        this.get('e').innerHTML = '<a href="episode/?episode=' + number + '">' + names[number] + '</a>';
+        //this.get('e').innerHTML = '<a href="episode/?episode=' + number + '">' + names[number] + '</a>';
+        this.get('e').innerHTML = names[number];
     }
 
     set f(flag){
