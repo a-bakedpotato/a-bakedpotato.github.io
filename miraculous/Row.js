@@ -29,6 +29,7 @@ export default class {
             .replace('🇩🇪', 'de')
             .replace('🇪🇸', 'es')
             .replace('🇫🇷', 'fr')
+            .replace('🇮🇹', 'it')
             .replace('🇺🇸', 'us');
 
         this.get('f').innerHTML = '<i class="twa twa-' + flag + '"></i>';
