@@ -1,5 +1,5 @@
 import Row from './Row.js';
-import { confirmed, unconfirmed } from './data.js';
+import { confirmed, unconfirmed, updated } from './data.js';
 
 const dubs = {
     de: false,
@@ -7,6 +7,9 @@ const dubs = {
     fr: false,
     pt: false
 }
+
+const updateTag = document.getElementById('updated');
+updateTag.innerHTML = 'Last Updated: ' + update + ' UTC';
 
 const timeline = [...confirmed, ...unconfirmed].sort((a, b) => a.timestamp - b.timestamp);
 const timeTable = document.getElementById('timeline');
@@ -27,6 +30,7 @@ function generateTimeTableRow(){
 let i = 0;
 for (const episode of timeline){
     const dub = episode.country === '🇧🇷' ? 'br'
+        :       episode.country === '🇮🇹' ? 'br' //br was for br dub but is now not any of: en fr de
         :       episode.country === '🇨🇭' ? 'fr'
         :       episode.country === '🇩🇪' ? 'de'
         :       episode.country === '🇫🇷' ? 'fr'
