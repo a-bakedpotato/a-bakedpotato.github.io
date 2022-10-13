@@ -9,7 +9,7 @@ const dubs = {
 }
 
 const updateTag = document.getElementById('updated');
-updateTag.innerHTML = 'Last Updated: ' + update + ' UTC';
+updateTag.innerHTML = 'Last Updated: ' + updated + ' UTC';
 
 const timeline = [...confirmed, ...unconfirmed].sort((a, b) => a.timestamp - b.timestamp);
 const timeTable = document.getElementById('timeline');
