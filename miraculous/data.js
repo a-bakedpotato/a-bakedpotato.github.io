@@ -1,72 +1,6 @@
 export const confirmed = [
 	{
 		"country": "🇺🇸",
-		"episode": "503",
-		"timestamp": 1666414800,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "501",
-		"timestamp": 1666600500,
-		"global": false
-	},
-	{
-		"country": "🇧🇷",
-		"episode": "504",
-		"timestamp": 1666650600,
-		"global": true
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "502",
-		"timestamp": 1666686900,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "503",
-		"timestamp": 1666773300,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "504",
-		"timestamp": 1666859700,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "506",
-		"timestamp": 1666946100,
-		"global": true
-	},
-	{
-		"country": "🇺🇸",
-		"episode": "504",
-		"timestamp": 1667019600,
-		"global": false
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "507",
-		"timestamp": 1667205300,
-		"global": true
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "508",
-		"timestamp": 1667291700,
-		"global": true
-	},
-	{
-		"country": "🇫🇷",
-		"episode": "505",
-		"timestamp": 1667378100,
-		"global": true
-	},
-	{
-		"country": "🇺🇸",
 		"episode": "505",
 		"timestamp": 1667624400,
 		"global": false
@@ -100,6 +34,12 @@ export const confirmed = [
 		"episode": "AWK",
 		"timestamp": 1688665800,
 		"global": false
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "509",
+		"timestamp": 1667465700,
+		"global": true
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = true;
@@ -108,14 +48,8 @@ export const confirmed = [
 
 export const unconfirmed = [
 	{
-		"country": "🇧🇷",
-		"episode": "505",
-		"timestamp": 1667255400,
-		"global": true
-	},
-	{
 		"country": "🇫🇷",
-		"episode": "509",
+		"episode": "510",
 		"timestamp": 1667810100,
 		"global": true
 	},
@@ -124,6 +58,12 @@ export const unconfirmed = [
 		"episode": "509",
 		"timestamp": 1670043600,
 		"global": false
+	},
+	{
+		"country": "🇧🇷",
+		"episode": "509",
+		"timestamp": 1670283000,
+		"global": true
 	},
 	{
 		"country": "🇩🇪",
@@ -284,4 +224,4 @@ export const names = {
     "5??": "???"
 }
 
-export const updated = '2022-10-19 04:51';
+export const updated = '2022-11-02 11:58';
