@@ -244,7 +244,7 @@ export const names = {
     "506": "Determination",
     "507": "Passion",
     "508": "Reunion",
-    "509": "Exaltation",
+    "509": "Elation",
     "510": "Transmission",
     "511": "Deflagration",
     "512": "Perfection",
