@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mondstadt Outcrops</title>
+  <link rel="stylesheet" type="text/css" href="https://a-bakedpotato.github.io/assets/style/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <style>
+    img {
+      width: 25%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      line-height: 0;
+      float: start;
+      user-select: none;
+    }
+    #map {
+      line-height: 0;
+      text-align: center;
+      position: relative;
+    }
+    .border {
+      width: 3%;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 1;
+      filter: drop-shadow(0px 0px 10px black);
+      background: lime center;
+    }
+    .border.rng {
+      background: yellow center;
+    }
+    .border.no {
+      background: red center;
+    }
+    .border:hover {
+      transition: .1s;
+      transform: scale(135%);
+      z-index: 100;
+    }
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      cursor: default;
+      font-size: 2vh;
+    }
+
+    p {
+      font-size: 2.5vw;
+    }
+  </style>
+</head>
+<body>
+<h1>Mining Outcrops Arrangement 5</h1>
+<div id="map">
+  <img src="../map/UI_MapBack_2_0.png"><img src="../map/UI_MapBack_2_-1.png"><img src="../map/UI_MapBack_2_-2.png">
+  <img src="../map/UI_MapBack_0_-3.png"><img src="../map/UI_MapBack_1_-1.png"><img src="../map/UI_MapBack_1_-2.png">
+
+  <a><img src="../leyline/crystal.png" class="border no" style="left:48.0%; top:16.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:46.0%; top:35.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:50.0%; top:42.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:51.0%; top:48.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:53.5%; top:65.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:68.0%; top:15.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:75.6%; top:05.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:80.0%; top:40.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:37.0%; top:46.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:44.0%; top:45.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:44.5%; top:31.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:32.5%; top:2.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:33.5%; top:30.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:30.2%; top:26.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:28.8%; top:28.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:27.0%; top:24.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:25.4%; top:22.8%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:26.0%; top:15.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:29.8%; top:15.8%"></a>
+</div>
+<p><img src="../leyline/crystal.png" class="border" style="transform: translateX(-100%)">&nbsp;&nbsp;Guaranteed Spawn</p>
+<p><img src="../leyline/crystal.png" class="border rng" style="transform: translateX(-100%)">&nbsp;&nbsp;Random Spawn</p>
+<p><img src="../leyline/crystal.png" class="border no" style="transform: translateX(-100%)">&nbsp;&nbsp;Not Spawned</p>
+<p>6 of the 8 possible Stormterror's Lair spots will spawn.</p>
+<br>
+<a href="index.html">Back</a>
+</body>
+</html>

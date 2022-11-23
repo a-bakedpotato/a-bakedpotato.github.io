@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inazuma Outcrops</title>
+  <link rel="stylesheet" type="text/css" href="https://a-bakedpotato.github.io/assets/style/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <style>
+    img {
+      width: 45%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      line-height: 0;
+      float: start;
+      user-select: none;
+    }
+    #map {
+      line-height: 0;
+      text-align: center;
+      position: relative;
+    }
+    .border {
+      width: 3%;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 1;
+      filter: drop-shadow(0px 0px 5px black);
+      background: lime center;
+    }
+    .border.rng {
+      background: yellow center;
+    }
+    .border.no {
+      background: red center;
+    }
+    .border:hover {
+      transition: .1s;
+      transform: scale(135%);
+      z-index: 100;
+    }
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      cursor: default;
+      font-size: 2vh;
+    }
+    h2 > a:hover {
+      font-size: 4vh;
+    }
+
+    p {
+      font-size: 2.5vw;
+    }
+  </style>
+</head>
+<body>
+<h1>Seirai Island Outcrops</h1>
+<div id="map">
+  <img src="../map/UI_MapBack_-5_-4.png"><img src="../map/UI_MapBack_-5_-5.png">
+
+  <a><img src="../leyline/crystal.png" class="border" style="left:51.0%; top:26.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:35.0%; top:25.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:37.0%; top:25.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:39.0%; top:18.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:58.0%; top:15.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:59.0%; top:84.0%"></a>
+</div>
+<p><img src="../leyline/crystal.png" class="border" style="transform: translateX(-100%)">&nbsp;&nbsp;"Guaranteed" Spawn</p>
+<p>If you find a missing spot, swap the locations of your EXP and mora leylines. If you already did this, Hajime
+  will mark 4 spots on the island with all spawns and 2 spawns will be on the island with your original mora leyline.</p>
+<br>
+<h2><a href="exp.html">Next Step</a></h2><br>
+<a href="index.html">Back</a>
+</body>
+</html>
