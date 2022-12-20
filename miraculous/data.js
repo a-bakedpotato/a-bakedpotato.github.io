@@ -1,59 +1,5 @@
 export const confirmed = [
 	{
-		"country": "🇺🇸",
-		"episode": "508",
-		"timestamp": 1669438800,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "502",
-		"timestamp": 1669656300,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "503",
-		"timestamp": 1669742700,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "504",
-		"timestamp": 1669829100,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "505",
-		"timestamp": 1669915500,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "506",
-		"timestamp": 1670001900,
-		"global": false
-	},
-	{
-		"country": "🇺🇸",
-		"episode": "509",
-		"timestamp": 1670043600,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "507",
-		"timestamp": 1670088300,
-		"global": false
-	},
-	{
-		"country": "🇩🇪",
-		"episode": "508",
-		"timestamp": 1670174700,
-		"global": false
-	},
-	{
 		"country": "🇫🇷",
 		"episode": "AWK",
 		"timestamp": 1688546100,
@@ -66,10 +12,22 @@ export const confirmed = [
 		"global": false
 	},
 	{
-		"country": "🇧🇷",
+		"country": "🇦🇺",
+		"episode": "512",
+		"timestamp": 1671780720,
+		"global": false
+	},
+	{
+		"country": "🇦🇺",
 		"episode": "516",
-		"timestamp": 1669678200,
-		"global": true
+		"timestamp": 1671867000,
+		"global": false
+	},
+	{
+		"country": "🇦🇺",
+		"episode": "518",
+		"timestamp": 1671953340,
+		"global": false
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
     e.confirmed = true;
@@ -78,21 +36,21 @@ export const confirmed = [
 
 export const unconfirmed = [
 	{
-		"country": "🇫🇷",
-		"episode": "510",
-		"timestamp": 1670229300,
-		"global": true
-	},
-	{
 		"country": "🇩🇪",
 		"episode": "509",
-		"timestamp": 1670693100,
+		"timestamp": 1673717100,
+		"global": false
+	},
+	{
+		"country": "🇫🇷",
+		"episode": "510",
+		"timestamp": 1675672500,
 		"global": false
 	},
 	{
 		"country": "🇺🇸",
 		"episode": "510",
-		"timestamp": 1673067600,
+		"timestamp": 1675486800,
 		"global": false
 	}
 ].filter(e => e.timestamp >= Math.floor(Date.now() / 1000)).map(e => {
@@ -248,4 +206,4 @@ export const names = {
     "5??": "???"
 }
 
-export const updated = '2022-11-22 23:08';
+export const updated = '2022-12-20 23:34';
