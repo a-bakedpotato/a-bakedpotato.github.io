@@ -30,6 +30,7 @@ export default class {
             .replace('🇪🇸', 'es')
             .replace('🇫🇷', 'fr')
             .replace('🇮🇹', 'it')
+            .replace('🇦🇺', 'australia-flag')
             .replace('🇺🇸', 'us');
 
         this.get('f').innerHTML = '<i class="twa twa-' + flag + '"></i>';
