@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sumeru Outcrops</title>
+  <link rel="stylesheet" type="text/css" href="https://a-bakedpotato.github.io/assets/style/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <style>
+    img {
+      width: 20%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      line-height: 0;
+      float: start;
+      user-select: none;
+    }
+    #map {
+      line-height: 0;
+      text-align: center;
+      position: relative;
+    }
+    .border {
+      width: 3%;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 1;
+      filter: drop-shadow(0px 0px 10px black);
+      background: lime center;
+    }
+    .border.rng {
+      background: yellow center;
+    }
+    .border.no {
+      background: red center;
+    }
+    .border:hover {
+      transition: .1s;
+      transform: scale(135%);
+      z-index: 100;
+    }
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      cursor: default;
+      font-size: 2vh;
+    }
+
+    p {
+      font-size: 2.5vw;
+    }
+  </style>
+</head>
+<body>
+<h1>Mining Outcrops Arrangement 3</h1>
+<div id="map">
+  <img src="../map/UI_MapBack_0_-3.png"><img src="../map/UI_MapBack_0_-3.png"><img src="../map/UI_MapBack_0_3.png"><img src="../map/UI_MapBack_0_2.png">
+  <img src="../map/UI_MapBack_0_-3.png"><img src="../map/UI_MapBack_-1_4.png"><img src="../map/UI_MapBack_-1_3.png"><img src="../map/UI_MapBack_-1_2.png">
+  <img src="../map/UI_MapBack_-2_5.png"><img src="../map/UI_MapBack_-2_4.png"><img src="../map/UI_MapBack_-2_3.png"><img src="../map/UI_MapBack_-2_2.png">
+  <img src="../map/UI_MapBack_-3_5.png"><img src="../map/UI_MapBack_-3_4.png"><img src="../map/UI_MapBack_-3_3.png"><img src="../map/UI_MapBack_-3_2.png">
+
+  <!-- Pardis Dhyai -->
+  <a><img src="../leyline/crystal.png" class="border" style="left:62.0%; top:47.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:64.5%; top:47.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:64.5%; top:43.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:61.0%; top:39.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:69.5%; top:47.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:68.8%; top:53.0%"></a>
+
+  <!-- SW Rainforest -->
+  <a><img src="../leyline/crystal.png" class="border no" style="left:63.5%; top:59.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:56.0%; top:59.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:58.5%; top:58.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:56.5%; top:71.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:59.5%; top:71.4%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:51.5%; top:50.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:70.0%; top:65.0%"></a>
+
+  <!-- NE Rainforest -->
+  <a><img src="../leyline/crystal.png" class="border no" style="left:85.5%; top:38.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:85.5%; top:31.5%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:84.0%; top:45.5%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:79.5%; top:40.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:75.8%; top:27.5%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:72.0%; top:19.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:81.0%; top:25.5%"></a>
+
+  <!-- Desert -->
+  <a><img src="../leyline/crystal.png" class="border no" style="left:25.5%; top:89.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:23.5%; top:87.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:38.0%; top:79.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:38.0%; top:88.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:49.0%; top:67.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:33.0%; top:84.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border rng" style="left:43.0%; top:79.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border" style="left:48.0%; top:82.0%"></a>
+
+  <!-- Devantaka Mountain -->
+  <a><img src="../leyline/crystal.png" class="border no" style="left:80.5%; top:59.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:84.5%; top:58.0%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:85.0%; top:60.5%"></a>
+  <a><img src="../leyline/crystal.png" class="border no" style="left:86.5%; top:53.5%"></a>
+</div>
+<p><img src="../leyline/crystal.png" class="border" style="transform: translateX(-100%)">&nbsp;&nbsp;Guaranteed Spawn</p>
+<p><img src="../leyline/crystal.png" class="border rng" style="transform: translateX(-100%)">&nbsp;&nbsp;Random Spawn</p>
+<p><img src="../leyline/crystal.png" class="border no" style="transform: translateX(-100%)">&nbsp;&nbsp;Not Spawned</p>
+<br>
+<a href="index.html">Back</a>
+</body>
+</html>
