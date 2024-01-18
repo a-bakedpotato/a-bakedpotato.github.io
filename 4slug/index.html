@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>4slug's Games</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" href="../assets/style/index.css">
+        <link rel="stylesheet" type="text/css" href="../assets/style/emoji.css">
+
+        <style>
+            a {
+                text-decoration: none;
+                transition: 0.2s;
+            }
+
+            a:hover {
+                cursor: pointer;
+                font-size: 4vh;
+            }
+
+            i:not(.twa) {
+                font-size: 2vh;
+            }
+
+            body {
+                font-size: 3vh;
+                line-height: 6vh;
+                padding: 2%;
+                text-align: center;
+            }
+
+            table {
+                margin: auto;
+            }
+
+            #games {
+                align-content: center;
+                display: -webkit-flex;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                left: 0;
+                list-style-type: none;
+                overflow: visible;
+                width: 90%;
+            }
+
+            #games > li {
+                flex: 1 1 45%;
+            }
+
+            .size150 {
+                border-radius: 25%;
+                font-size: 150pt;
+                transition: 0.2s;
+            }
+
+            #games > li:hover .size150 {
+                border-radius: 5%;
+                font-size: 175pt;
+                transition: 0.2s;
+            }
+        </style>
+    </head>
+    <body>
+        <a href=".."><i class="twa twa-arrow-left"></i> Back</a><br>
+
+        <ul id="games">
+            <li class="game"><a href="dream"><i class="twa ce-4slug-dream size150"></i><br>a dream you've had before</a></li>
+            <li class="game"><a href="symmetry"><i class="twa ce-4slug-symmetry size150"></i><br>symmetry</a></li>
+            <li class="game"><a href="tragic"><i class="twa ce-4slug-tragic size150"></i><br>tragic</a></li>
+            <li class="game"><a href="thoughts"><i class="twa ce-4slug-thoughts size150"></i><br>your last thoughts at the end of time</a></li>
+        </ul>
+    </body>
+</html>
