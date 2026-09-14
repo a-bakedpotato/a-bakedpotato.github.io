@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Natlan Outcrops</title>
+  <link rel="stylesheet" type="text/css" href="https://a-bakedpotato.github.io/assets/style/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <style>
+    img {
+      width: 90%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      line-height: 0;
+      float: start;
+      user-select: none;
+    }
+    #map {
+      line-height: 0;
+      text-align: center;
+      position: relative;
+    }
+    .border {
+      width: 3%;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 1;
+      filter: drop-shadow(0px 0px 10px black);
+      background: lime center;
+	  transition: 0.2s;
+    }
+    .border.rng {
+      background: yellow center;
+    }
+    .border.no {
+      background: red center;
+    }
+    .border.unk {
+      background: #8a8a8a center;
+    }
+    .border.fifty {
+      background: cornflowerblue center;
+    }
+	.translucent {
+	  opacity: 50%;
+	}
+    .border:hover {
+      transition: .1s;
+      transform: scale(135%);
+      z-index: 100;
+    }
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      cursor: default;
+      font-size: 2vh;
+    }
+	
+	a > img.unk:hover, #confirm {
+	  cursor: pointer;
+	}
+
+    p {
+      font-size: 2.5vw;
+    }
+	
+	.hidden {
+	  display: none;
+	}
+  </style>
+  
+  <script src="script.js" defer></script>
+</head>
+<body>
+<h1>Mining Outcrops Arrangement 4</h1>
+<noscript>i will make a non javascript version later, for now just enable js and use the js version or just know the blacksmith marks 2 groups of 3 then the last 2 spots are either summer island + the 4 or 2 of another group of 3, this probably makes no sense to you so just wait for me to finish the non js version</noscript>
+<h3 id="prompt">Please select the 4 spots shown by the blacksmith.</h3>
+<a id="confirm">Confirm<br><br></a>
+<span id="yn" class="hidden"><a id="yes">Yes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="no">No</a><br><br></span>
+<div id="map">
+	<img src="../../map/natlan.png">
+	
+	<!-- possible pattern: blacksmith marks 2 of the groups of 3? -->
+	<!-- + always a spot in the NE group of 4? NOPE but top still holding true so far -->
+	<!-- new hypothesis: first comment + 2 spots from another group of 3 HOWEVER if one spot is
+		the summer island then a spot from NE group of 4 gets chosen as the second random spot -->
+	<!-- ^^ times verified as true: 3 -->
+	
+	<!-- top right -->
+	<a><img src="../../leyline/crystal.png" class="border unk the4 translucent" style="left:81.5%; top:40.5%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk the4 translucent" style="left:78.0%; top:38.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk the4 translucent" style="left:78.2%; top:43.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk the4 translucent" style="left:79.2%; top:44.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk ne translucent" style="left:74.5%; top:37.8%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk ne translucent" style="left:69.0%; top:43.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border no" style="left:83.0%; top:55.5%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk ne translucent" style="left:66.0%; top:44.0%"></a>
+	
+	<!-- left -->
+	<a><img src="../../leyline/crystal.png" class="border unk w translucent" style="left:52.5%; top:45.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk w translucent" style="left:52.8%; top:43.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk w translucent" style="left:54.0%; top:41.0%"></a>
+	
+	<!-- top left -->
+	<a><img src="../../leyline/crystal.png" class="border unk chasca translucent" style="left:57.5%; top:33.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk chasca translucent" style="left:58.5%; top:32.8%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk chasca translucent" style="left:59.0%; top:29.0%"></a>
+	
+	<!-- bottom left -->
+	<a><img src="../../leyline/crystal.png" class="border unk iansan translucent" style="left:45.6%; top:78.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk iansan translucent" style="left:45.5%; top:80.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk iansan translucent" style="left:53.5%; top:76.0%"></a>
+	
+	<!-- mualani -->
+	<a><img src="../../leyline/crystal.png" class="border unk mualani translucent" style="left:73.0%; top:63.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk mualani translucent" style="left:71.0%; top:63.2%"></a>
+	<a><img src="../../leyline/crystal.png" class="border unk mualani translucent" style="left:70.0%; top:60.0%"></a>
+	
+	<!-- summer island -->
+	<a><img src="../../leyline/crystal.png" class="border unk si translucent" style="left:29.0%; top:25.0%"></a>
+	<a><img src="../../leyline/crystal.png" class="border no" style="left:29.0%; top:34.0%"></a>
+</div>
+<span id="everythingelse">
+<p><img src="../../leyline/crystal.png" class="border" style="transform: translateX(-100%)">&nbsp;&nbsp;Guaranteed Spawn</p>
+<p><img src="../../leyline/crystal.png" class="border rng" style="transform: translateX(-100%)">&nbsp;&nbsp;Random Spawn</p>
+<p><img src="../../leyline/crystal.png" class="border no" style="transform: translateX(-100%)">&nbsp;&nbsp;Not Spawned</p>
+<p id="unk"><img src="../../leyline/crystal.png" class="border unk" style="transform: translateX(-100%)">&nbsp;&nbsp;Unknown</p>
+</span>
+<p>If any of this data misaligns with yours, please contact me on discord.</p>
+<br>
+<a href="index.html">Back</a>
+</body>
+</html>
