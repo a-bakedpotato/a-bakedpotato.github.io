@@ -1,95 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Snezhnaya Outcrops</title>
-    <link rel="stylesheet" type="text/css" href="https://a-bakedpotato.github.io/assets/style/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <style>
-        img {
-            width: 90%;
-            padding: 0;
-            margin: 0;
-            border: 0;
-            line-height: 0;
-            float: start;
-            user-select: none;
-        }
-        #map {
-            line-height: 0;
-            text-align: center;
-            position: relative;
-        }
-        .border {
-            width: 3%;
-            border-radius: 50%;
-            position: absolute;
-            z-index: 1;
-            filter: drop-shadow(0px 0px 10px black);
-            background: white center;
-        }
-        .border:hover {
-            transition: .1s;
-            transform: scale(135%);
-        }
+  <meta charset="UTF-8">
+  <title>Snezhnaya Outcrops</title>
+  <link rel="stylesheet" type="text/css" href="https://a-bakedpotato.github.io/assets/style/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <style>
+    img {
+      width: 90%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      line-height: 0;
+      float: start;
+      user-select: none;
+    }
+    #map {
+      line-height: 0;
+      text-align: center;
+      position: relative;
+    }
+    .border {
+      width: 3%;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 1;
+      filter: drop-shadow(0px 0px 10px black);
+      background: lime center;
+    }
+    .border.g1 {
+      background: #889683 center;
+    }
+    .border.g2 {
+      background: #85a27c center;
+    }
+    .border.g3 {
+      background: #82ad74 center;
+    }
+    .border.g4 {
+      background: #7cb96c center;
+    }
+    .border.g5 {
+      background: #76c562 center;
+    }
+    .border.g6 {
+      background: #6dd058 center;
+    }
+    .border.g7 {
+      background: #62dc4d center;
+    }
+    .border.g8 {
+      background: #53e83e center;
+    }
+    .border.g9 {
+      background: #3cf32b center;
+    }
+    .border.rng {
+      background: yellow center;
+    }
+    .border.no {
+      background: red center;
+    }
+    .border.no1 {
+      background: #9c847e center;
+    }
+    .border.no2 {
+      background: #ab7d71 center;
+    }
+    .border.no3 {
+      background: #b87665 center;
+    }
+    .border.no4 {
+      background: #c46e59 center;
+    }
+    .border.no5 {
+      background: #d0654c center;
+    }
+    .border.no6 {
+      background: #da5b40 center;
+    }
+    .border.no7 {
+      background: #e45033 center;
+    }
+    .border.no8 {
+      background: #ed4126 center;
+    }
+    .border.no9 {
+      background: #f62e16 center;
+    }
+    .border.unk {
+      background: #8a8a8a center;
+    }
+    .border:hover {
+      transition: .1s;
+      transform: scale(135%);
+      z-index: 100;
+    }
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+    }
 
-        a {
-            text-decoration: none;
-            transition: 0.2s;
-        }
+    a:hover {
+      cursor: default;
+      font-size: 2vh;
+    }
 
-        a:hover {
-            cursor: pointer;
-            font-size: 2vh;
-        }
-		
-		.wip1 {
-			opacity: 10%;
-		}
-		
-		.wip2 {
-			opacity: 20%;
-		}
-		
-		.wip3 {
-			opacity: 30%;
-		}
-		
-		.wip4 {
-			opacity: 40%;
-		}
-		
-		.wip5 {
-			opacity: 50%;
-		}
-		
-		.wip6 {
-			opacity: 60%;
-		}
-		
-		.wip7 {
-			opacity: 70%;
-		}
-		
-		.wip8 {
-			opacity: 80%;
-		}
-		
-		.wip9 {
-			opacity: 90%;
-		}
-    </style>
+    p {
+      font-size: 2.5vw;
+    }
+  </style>
 </head>
 <body>
-    <h1>Select Mora Leyline Location</h1>
-    <div id="map">
-        <img src="../map/snezh.png">
-
-        <a href="1.html"><img src="../leyline/mora.png" class="border wip9" style="left:34.0%; top:72.0%"></a>
-        <a href="2.html"><img src="../leyline/mora.png" class="border" style="left:28.0%; top:54.0%"></a>
-        <a href="3.html"><img src="../leyline/mora.png" class="border wip9" style="left:45.0%; top:48.0%"></a>
-    </div>
-	<p>I am still collecting data for this region. Until I am satisfied with the datasets, leylines with less data will show up lighter. If your leyline is missing, look closer, it may be hard to see. If it's still missing, please let me know on discord. If you would like to help contribute to the data, please contact me on discord.</p>
-    <a href="../index.html">Back</a>
+<h1>Snezhnaya Mining Outcrops</h1>
+<div id="map">
+	<img src="../map/snezh.png">
+	
+	<!-- top right -->
+	<a><img src="../leyline/crystal.png" class="border" style="left:49.0%; top:25.0%"></a>
+	<a><img src="../leyline/crystal.png" class="border g9" style="left:48.0%; top:27.0%"></a>
+	
+	<!-- top left -->
+	<a><img src="../leyline/crystal.png" class="border" style="left:39.0%; top:40.0%"></a>
+	<a><img src="../leyline/crystal.png" class="border" style="left:35.0%; top:37.0%"></a>
+	<a><img src="../leyline/crystal.png" class="border" style="left:32.0%; top:37.0%"></a>
+	
+	<!-- bottom right -->
+	<a><img src="../leyline/crystal.png" class="border g9" style="left:50.0%; top:56.0%"></a>
+	<a><img src="../leyline/crystal.png" class="border g9" style="left:53.0%; top:46.5%"></a>
+	<a><img src="../leyline/crystal.png" class="border g9" style="left:47.0%; top:42.0%"></a>
+</div>
+<p><img src="../leyline/crystal.png" class="border" style="transform: translateX(-100%)">&nbsp;&nbsp;Guaranteed Spawn</p>
+<p><img src="../leyline/crystal.png" class="border rng" style="transform: translateX(-100%)">&nbsp;&nbsp;Random Spawn</p>
+<p><img src="../leyline/crystal.png" class="border no" style="transform: translateX(-100%)">&nbsp;&nbsp;Not Spawned</p>
+<p>If any of this data misaligns with yours, please contact me on discord.</p>
+<br>
+<a href="../index.html">Back</a>
 </body>
 </html>
